@@ -450,7 +450,10 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "equal_sign"
+            "key_code": "equal_sign",
+            "modifiers": {
+              "optional": ["any"]
+            }
           },
           "to": [
             {
