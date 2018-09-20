@@ -393,7 +393,18 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "f12",
+            "key_code": "equal_sign"
+          },
+          "to": [
+            {
+              "key_code": "f12"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "equal_sign",
             "modifiers": {
               "mandatory": [
                 "fn"
@@ -444,20 +455,6 @@
           "to": [
             {
               "key_code": "page_down"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "equal_sign",
-            "modifiers": {
-              "optional": ["any"]
-            }
-          },
-          "to": [
-            {
-              "key_code": "f12"
             }
           ]
         },
