@@ -393,7 +393,17 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "equal_sign"
+            "key_code": "equal_sign",
+            "modifiers": {
+              "optional": [
+                "left_shift",
+                "right_shift",
+                "left_command",
+                "right_command",
+                "left_option",
+                "right_option"
+              ]
+            }
           },
           "to": [
             {
@@ -417,6 +427,36 @@
           "to": [
             {
               "key_code": "equal_sign"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "non_us_backslash"
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "non_us_backslash",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "non_us_backslash"
             }
           ]
         },
