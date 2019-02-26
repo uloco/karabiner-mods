@@ -373,6 +373,17 @@
             {
               "key_code": "escape"
             }
+          ],
+          "conditions": [
+            {
+              "type": "device_unless",
+              "identifiers": [
+                {
+                  "vendor_id": 1241,
+                  "description": "Vortex Pok3r"
+                }
+              ]
+            }
           ]
         },
         {
