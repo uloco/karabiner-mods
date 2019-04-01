@@ -367,7 +367,19 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "non_us_backslash"
+            "key_code": "non_us_backslash",
+            "modifiers": {
+              "optional": [
+                "left_command",
+                "left_option",
+                "left_shift",
+                "left_control",
+                "right_command",
+                "right_option",
+                "right_shift",
+                "right_control"
+              ]
+            }
           },
           "to": [
             {
