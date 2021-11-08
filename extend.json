@@ -317,7 +317,9 @@
                 "left_command",
                 "right_command",
                 "left_option",
-                "right_option"
+                "right_option",
+                "left_control",
+                "right_control"
               ]
             }
           },
