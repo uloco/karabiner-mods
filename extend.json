@@ -398,6 +398,46 @@
                   "vendor_id": 1241,
                   "product_id": 321,
                   "description": "Vortex Pok3r"
+                },
+                {
+                  "vendor_id": 2652,
+                  "product_id": 34050,
+                  "description": "Filco Minila"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "non_us_backslash",
+            "modifiers": {
+              "optional": [
+                "left_command",
+                "left_option",
+                "left_shift",
+                "left_control",
+                "right_command",
+                "right_option",
+                "right_shift",
+                "right_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "vendor_id": 2652,
+                  "product_id": 34050,
+                  "description": "Filco Minila"
                 }
               ]
             }
