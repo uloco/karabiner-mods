@@ -334,6 +334,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1241,
+                  "product_id": 321,
                   "description": "Vortex Pok3r"
                 }
               ]
@@ -360,6 +361,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1241,
+                  "product_id": 321,
                   "description": "Vortex Pok3r"
                 }
               ]
@@ -394,6 +396,7 @@
               "identifiers": [
                 {
                   "vendor_id": 1241,
+                  "product_id": 321,
                   "description": "Vortex Pok3r"
                 }
               ]
